@@ -1,0 +1,15 @@
+*{
+    font-family: verdana;
+    font-size: 17px;
+}
+
+.unselect-btn{
+    border: none;
+    background: none;
+    color: blue;
+    text-decoration: underline;
+}
+
+.cancel-btn{
+    margin-left: 40px;
+}

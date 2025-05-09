@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <form action>
+            <fieldset>
+                <legend>Name and Address</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <p>Do you use CiviCRM?</p>
+                        </td>
+                        <td><input type="radio" id="yes" name="answer">
+                            <label for="yes">Yes</label>
+                            <input type="radio" id="no" name="answer">
+                            <label for="no">No</label>
+                            (<input type="reset" value="unselect"
+                                class="unselect-btn">)
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>How long have you been using <br> CiviCRM?</td>
+                        <td><select>
+                                <option>-select-</option>
+                            </select></td>
+                    </tr>
+
+                    <tr>
+                        <td>Which CMS do you use?</td>
+                        <td>
+                            <select>
+                                <option>-select-</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Your skill set</td>
+                        <td>
+                            <select>
+                                <option>-select-</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Email &#x2731;</td>
+                        <td><input type="email" name id></td>
+                    </tr>
+
+                    <tr>
+                        <td>First Name &#x2731;</td>
+                        <td><input type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Last Name &#x2731;</td>
+                        <td><input type="text">
+                            <br>
+                            <label>First and last name will be shared with other
+                                visitors to the site.</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Street Address (Home)</label></td>
+                        <td><input type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>City (Home)</label></td>
+                        <td><input type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Postal Code (Home)</label></td>
+                        <td><input type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Country (Home)</label></td>
+                        <td>
+                            <select>
+                                <option>United States</option>
+                            </select>
+                            <br>
+                            <label>Your state/province and country of residence
+                                will be shared with others so folks can find
+                                <br> others in their community.</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>State (Home)</label></td>
+                        <td>
+                            <select>
+                                <option>-select-</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+
+        <button>Submit</button>
+        <button class="cancel-btn">Cancel</button>
+
+    </body>
+</html>
