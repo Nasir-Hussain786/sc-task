@@ -11,5 +11,21 @@
 }
 
 .cancel-btn{
-    margin-left: 40px;
+    margin-left: 35px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.select-option{
+    padding: 0px 50px 0px 0px;
+    border-radius: 5px;
+}
+
+.state-option{
+    padding: 0px 180px 0px 0px;
+}
+
+.submit-btn{
+    border-radius: 10px;
+    border: 1px solid gray;
 }
